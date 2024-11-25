@@ -1,55 +1,60 @@
-# Mental Health Support Application
-## Wellness Companion App
+# Wellness Companion App
 
 ## Project Overview
-This application is designed to support individuals facing mental health challenges by providing a user-friendly platform with tools and resources to promote emotional well-being. It aims to empower users through features like guided meditation, mood tracking, and peer support.
+
+### Problem Statement
+
+Mental health challenges affect millions globally, yet many individuals face barriers to accessing support, including:
+- Stigma surrounding mental health
+- Limited access to mental health professionals
+- Lack of consistent emotional self-monitoring tools
+- Isolation and difficulty finding supportive communities
+
+### Our Solution
+Wellness Companion is an Android application built with Kotlin that democratizes mental health support through technology. Our app provides an accessible, private, and comprehensive platform that enables users to:
+- Track and understand their emotional well-being
+- Access guided meditation and wellness resources
+- Connect with a supportive community
+- Talk with a real life therapist
+All of this is delivered through an intuitive, stigma-free mobile interface that users can access anytime, anywhere.
 
 ## Features
 
 ### Core Functionality
-- **Mood Tracking**: Users can log their mood and reflect on their emotional trends over time
-- **Guided Meditation**: Access a library of meditation sessions tailored to reduce stress and enhance mindfulness
+- **Mood Tracking**: Users can log their mood and reflect on their emotional trends over time (sort of like a diary)
+- **Guided Meditation**: Access a library of meditation sessions, Explore articles, videos, and other materials on mental health topics.
 - **Peer Support**: Connect with others in a safe and supportive environment to share experiences and encouragement
-- **Resource Library**: Explore articles, videos, and other materials on mental health topics
-- **Personalization**: Tailored recommendations based on user preferences and activity
+- **Virtual Therapy**: Talk with a real life therapist.
 
 ## Technology Stack
 
-### Frontend
-- Jetpack Compose
-
-### Backend
-- Node.js
-- Firebase
+### Development
+- **Language**: Kotlin
+- **Minimum SDK**: API 24 (Android 7.0)
+- **Target SDK**: API 34 (Android 14)
 
 ### Database
 - SQLite
-- Firebase Firestore
+- Firebase
 
 ### Additional Tools
 - Authentication: Firebase Auth
 - Deployment: Heroku
 
-## Installation
+## Setup Instructions
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/Wendy-Lagho/wellness-companion.git
    ```
 
-2. Navigate to the project directory:
-   ```bash
-   cd mental-health-app
-   ```
+2. Open in Android Studio:
+   - Use Android Studio Hedgehog (2023.1.1) or newer
+   - Enable Kotlin plugin if not already enabled
 
-3. Install dependencies:
+3. Build and run:
    ```bash
-   npm install
-   ```
-
-4. Run the application:
-   ```bash
-   npm start
+   ./gradlew build
    ```
 
 ## Usage Guide
@@ -59,18 +64,29 @@ This application is designed to support individuals facing mental health challen
 2. **Mood Tracking**: Click on "Log Mood," select your mood, and add optional notes
 3. **Meditation Library**: Browse or search for meditation sessions and start playback
 4. **Peer Support**: Join or create support groups for discussions
+5. **Virtual Therapy**: Talk to a therapist on the app.
+
+## Contributing
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
 
 ## Future Enhancements
 
-We plan to implement the following features:
+To better the project, the following features can be added:
 
 - AI Chatbot for real-time mental health advice
 - Gamification to encourage consistent engagement through rewards and streaks
 - Multi-language support to expand accessibility for diverse user groups
 
-## Contributors
+## Team
 
 - Derrick Koros
-- Lagho Wendy
+- Wendy Lagho
 - Ian Imbuki
 - Yvonne Kibet
+
+## License
+This project is licensed under the MIT License
