@@ -1,0 +1,13 @@
+<!-- item_received_message.xml -->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/textMessageReceived"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginStart="72dp"
+    android:background="@drawable/bg_received_message"
+    android:padding="12dp"
+    android:textColor="@android:color/black"
+    android:textSize="16sp"
+    android:textStyle="normal"/>

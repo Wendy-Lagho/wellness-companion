@@ -1,0 +1,73 @@
+<!-- activity_chat.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Chat name and icon -->
+    <LinearLayout
+        android:id="@+id/chatHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/chatIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_contact"
+            android:contentDescription="@string/contact_icon_description"/>
+
+        <TextView
+            android:id="@+id/chatName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/default_chat_name"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_marginStart="8dp"/>
+
+    </LinearLayout>
+
+    <!-- RecyclerView for messages -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewMessages"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/chatHeader"
+        android:layout_above="@+id/inputLayout"
+        android:padding="8dp"/>
+
+    <!-- Input layout for sending messages -->
+    <LinearLayout
+        android:id="@+id/inputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp">
+
+        <EditText
+            android:id="@+id/editTextMessage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/type_message_hint"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <ImageButton
+            android:id="@+id/buttonSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:contentDescription="@string/send_message_icon_description"
+            android:src="@drawable/ic_send"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+</RelativeLayout>

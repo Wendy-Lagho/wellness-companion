@@ -1,0 +1,20 @@
+<!-- res/drawable/rounded_button.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <!-- Button background color -->
+    <solid android:color="#6200EE"/> <!-- You can change the color as needed -->
+
+    <!-- Rounded corners -->
+    <corners android:radius="12dp"/>
+
+    <!-- Add shadow/elevation effect -->
+    <padding
+        android:left="8dp"
+        android:top="8dp"
+        android:right="8dp"
+        android:bottom="8dp" />
+
+    <!-- Optionally add a border -->
+    <stroke
+        android:width="2dp"
+        android:color="#3700B3" />
+</shape>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">WCAPP</string>
+    <string name="contact_icon_description">Contact Icon</string>
+    <string name="default_chat_name">Chat Name</string>
+    <string name="type_message_hint">Type your message...</string>
+    <string name="send_message_icon_description">Send Message</string>
+    <!-- other strings -->
+
+    <string-array name="mood_options">
+        <item>Happy</item>
+        <item>Sad</item>
+        <item>Angry</item>
+        <item>Excited</item>
+        <item>Anxious</item>
+        <item>Calm</item>
+        <item>Frustrated</item>
+        <item>Content</item>
+        <item>Bored</item>
+        <item>Stressed</item>
+        <item>Relaxed</item>
+        <item>Grateful</item>
+        <item>Confident</item>
+        <item>Motivated</item>
+        <item>Tired</item>
+        <item>Lonely</item>
+        <item>Hopeful</item>
+        <item>Inspired</item>
+    </string-array>
+</resources>

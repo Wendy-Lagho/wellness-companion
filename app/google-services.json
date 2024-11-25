@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "617242311227",
+    "project_id": "wcapp-8924e",
+    "storage_bucket": "wcapp-8924e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617242311227:android:fda74877562663e90ffa1e",
+        "android_client_info": {
+          "package_name": "com.wcapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdM4q4h3jkM0UxwaZvFyICG5xab6AWXWQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

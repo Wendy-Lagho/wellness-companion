@@ -1,0 +1,73 @@
+<!-- res/layout/activity_home.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:padding="8dp"
+        android:text="WELCOME TO WELLNESS COMPANION"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Button for Mood Tracking -->
+    <Button
+        android:id="@+id/btnMoodTracking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button"
+        android:text="Mood Tracking"
+        android:textColor="#FFFFFF" />
+
+    <!-- Button for Guided Meditation -->
+    <Button
+        android:id="@+id/btnGuidedMeditation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button"
+        android:text="Guided Meditation"
+        android:textColor="#FFFFFF" />
+
+    <!-- Button for Virtual Therapy -->
+    <Button
+        android:id="@+id/btnVirtualTherapy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button"
+        android:text="Virtual Therapy"
+        android:textColor="#FFFFFF" />
+
+    <!-- Button for Peer Support -->
+    <Button
+        android:id="@+id/btnPeerSupport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button"
+        android:text="Peer Support"
+        android:textColor="#FFFFFF" />
+
+    <!-- Button for Educational Resources -->
+    <Button
+        android:id="@+id/btnEducationalResources"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button"
+        android:text="Educational Resources"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

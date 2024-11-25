@@ -1,0 +1,22 @@
+<!-- bg_received_message.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <!-- Background shape for received message -->
+        <shape android:shape="rectangle">
+            <!-- Gradient background for received message -->
+            <gradient
+                android:angle="0"
+                android:endColor="#E0E0E0"
+                android:startColor="#FFFFFF" />
+            <!-- Corner radius for rounded corners -->
+            <corners android:radius="16dp" />
+        </shape>
+    </item>
+    <item android:right="4dp" android:top="4dp" android:left="4dp">
+        <!-- Drop shadow for received message -->
+        <shape android:shape="rectangle">
+            <solid android:color="#44000000" />
+            <corners android:radius="16dp" />
+        </shape>
+    </item>
+</layer-list>

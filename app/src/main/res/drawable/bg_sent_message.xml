@@ -1,0 +1,17 @@
+<!-- bg_sent_message.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Background color for sent message -->
+    <solid android:color="#2979FF" /> <!-- Adjust color as per your design -->
+
+    <!-- Corner radius for rounded corners, adjust as needed -->
+    <corners android:radius="8dp" />
+
+    <!-- Optional: Add padding if needed -->
+    <padding android:left="12dp"
+        android:right="12dp"
+        android:top="8dp"
+        android:bottom="8dp"/>
+
+</shape>
